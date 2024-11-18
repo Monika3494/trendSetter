@@ -1,0 +1,42 @@
+/* About Section Styles */
+.about {
+    background-color: #f9f9f9;
+    padding: 120px 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-content {
+    max-width: 800px;
+  }
+  
+  /* Large Middle Text */
+  .about-large-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    line-height: 1.3;
+  }
+  
+  /* Smaller Descriptive Text */
+  .about-small-text {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  .about-content a:hover {
+    color: #1a2ddc;
+  }
+ .about-content.get-in-touch-btn {
+    padding: 20px 30px;
+    background-color: #0639f2;
+    color: #111064;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }

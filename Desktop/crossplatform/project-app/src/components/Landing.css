@@ -1,0 +1,92 @@
+/* General Styles */
+.landing-container {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.landing-title {
+  font-size: 36px;
+  color: #0077ff;
+  margin-bottom: 10px;
+}
+
+.landing-subtitle {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Option Section Styles */
+.option-section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.option-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.option-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.option-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.option-title {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.option-description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Button Styles */
+.select-btn {
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.select-btn:hover {
+  background-color: #0056cc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .option-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .option-card {
+    width: 100%;
+    max-width: 400px;
+  }
+}
